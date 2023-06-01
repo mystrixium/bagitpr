@@ -74,17 +74,17 @@
 			"required": false,
 			"recommended": true,
 			"description": "Can be the same as source_organization recommended when not the same as source"
-		},
-		"Manifests-Required": [
-			"sha256"
-		],
-		"Manifests-Allowed": [
-			"sha256",
-			"sha512"
-		],
-		"Accept-BagIt-Version": [
-			"1.",
-			"0.97"
-		]
-	}
+		}
+	},
+	"Manifests-Required": [
+		"sha256"
+	],
+	"Manifests-Allowed": [
+		"sha256",
+		"sha512"
+	],
+	"Accept-BagIt-Version": [
+		"1.",
+		"0.97"
+	]
 }
