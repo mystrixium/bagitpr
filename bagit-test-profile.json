@@ -22,7 +22,7 @@
 			"recommended": true
 		},
 		"Contact-Name": {
-			"required": false
+			"required": true
 		},
 		"Contact-Phone": {
 			"required": false
@@ -39,7 +39,7 @@
 			"recommended": true
 		},
 		"External-Description": {
-			"required": false
+			"required": true
 		},
 		"Bagging-Date": {
 			"required": true
