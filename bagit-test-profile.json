@@ -26,6 +26,6 @@
 		"sha512"
 	],
 	"Accept-BagIt-Version": [
-		"0.97"
+		"1."
 	]
 }
