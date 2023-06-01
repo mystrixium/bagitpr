@@ -1,0 +1,25 @@
+{
+     "BagIt-Profile-Info":{
+      "BagIt-Profile-Identifier":"https://raw.githubusercontent.com/mystrixium/bagit/main/bagit-test-profile.json",
+      "Source-Organization":"Random",
+      "Contact-Name":"Test User",
+      "Contact-Email":"test@user.de",
+      "External-Description":"BagIt Test profile",
+      "Version":"1.4"
+   },
+   "Bag-Info":{
+      "Source-Organization":{
+         "required":true,
+         "values":[
+            "Some Foundation",
+            "Another Foundation",
+            "Some University",
+            "Test Organization"
+         ]
+							}
+			},
+         "Accept-BagIt-Version": [
+            "1.",
+            "0.97"
+        ]
+}
