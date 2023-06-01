@@ -16,17 +16,75 @@
 				"Some University",
 				"Test Organization"
 			]
-		}
-	},
-	"Manifests-Required": [
-		"sha256"
-	],
-	"Manifests-Allowed": [
-		"sha256",
-		"sha512"
-	],
-	"Accept-BagIt-Version": [
-            "1.",
-            "0.97"
-	]
+		},
+		"Organization-Address": {
+			"required": false,
+			"recommended": true
+		},
+		"Contact-Name": {
+			"required": false
+		},
+		"Contact-Phone": {
+			"required": false
+		},
+		"Contact-Email": {
+			"required": false,
+			"recommended": true
+		},
+		"SIP-Version": {
+			"required": true
+		},
+		"Preservation-Level": {
+			"required": false,
+			"recommended": true
+		},
+		"External-Description": {
+			"required": false
+		},
+		"Bagging-Date": {
+			"required": true
+		},
+		"External-Identifier": {
+			"required": true
+		},
+		"Bag-Size": {
+			"required": false
+		},
+		"Payload-Oxum": {
+			"required": true
+		},
+		"Author": {
+			"required": false,
+			"recommended": true
+		},
+		"Title": {
+			"required": false,
+			"recommended": true
+		},
+		"Internal-Sender-Identifier": {
+			"required": false
+		},
+		"Internal-Sender-Description": {
+			"required": false
+		},
+		"Payload-Identifier": {
+			"required": false
+		},
+		"Bag-Producing-Organization": {
+			"required": false,
+			"recommended": true,
+			"description": "Can be the same as source_organization recommended when not the same as source"
+		},
+		"Manifests-Required": [
+			"sha256"
+		],
+		"Manifests-Allowed": [
+			"sha256",
+			"sha512"
+		],
+		"Accept-BagIt-Version": [
+			"1.",
+			"0.97"
+		]
+	}
 }
