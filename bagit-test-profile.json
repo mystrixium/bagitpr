@@ -70,7 +70,7 @@
 		"Payload-Identifier": {
 			"required": false
 		},
-		"Payload-Files-Required":"required": true,
+		"Payload-Files-Required":{"required": true},
 		"Bag-Producing-Organization": {
 			"required": false,
 			"recommended": true,
