@@ -70,7 +70,12 @@
 		"Payload-Identifier": {
 			"required": false
 		},
-		"Payload-Files-Required":{"required": true},
+		"Payload-Files-Required":{"required": true,
+					 "values": [
+				"Somefile.txt"
+			]
+					 }
+		,
 		"Bag-Producing-Organization": {
 			"required": false,
 			"recommended": true,
